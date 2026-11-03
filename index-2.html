@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./support.js"></script>
+<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 </head>
 <body>
 <x-dc>
@@ -447,7 +448,7 @@ const PROJECTS = {
     summary: 'A tactile audio recording widget and the micro-animations behind it, designed to turn a routine task like recording a voice memo into something that feels satisfying to use, with the charm of vintage hardware and the speed of a modern interface.',
     media: [{ src: 'rec-story.mp4', video: true }, { src: 'rec-widget.webp' }, { src: 'rec-detail.webp' }],
     sections: [
-      { label: 'design', body: 'The widget borrows from old tape recorders and studio gear: a dark, solid body, chunky round buttons and a monospaced timeline that reads like a hardware display.\n\nEverything you need sits on one surface:\n•  A running timer and a lock to prevent accidental taps\n•  A timeline with a live waveform and an orange playhead\n•  Pause, record and stop as three big, physical-feeling buttons\n\nThe soft blue backdrop keeps the focus on the device, while the inset shadows on the buttons make them look like they can actually be pressed.' },
+      { label: 'design', body: 'The widget borrows from old tape recorders and studio gear: a dark, solid body, chunky round buttons and a monospaced timeline that reads like a hardware display.\n\nEverything you need sits on one surface:\n•  A running timer and a lock to prevent accidental taps\n•  A timeline with a live waveform and an orange playhead\n���  Pause, record and stop as three big, physical-feeling buttons\n\nThe soft blue backdrop keeps the focus on the device, while the inset shadows on the buttons make them look like they can actually be pressed.' },
       { label: 'motion & detail', body: 'Motion was built in Jitter to make every state change feel immediate and physical.\n\nThe animation covers:\n•  A minimalist start state that expands into the full recorder\n•  Smooth transitions between idle, recording and paused\n•  A real-time waveform that reacts as you speak\n•  A playhead that moves along the timeline as time passes\n\nButtons press in and settle back, and the recording label dims and brightens, so you always know what the widget is doing without reading a word.' },
     ],
     learned: [

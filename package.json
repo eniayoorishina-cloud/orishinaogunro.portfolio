@@ -1,0 +1,23 @@
+{
+  "name": "orishinaogunro-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website with Vercel Web Analytics",
+  "main": "support.js",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eniayoorishina-cloud/orishinaogunro.portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eniayoorishina-cloud/orishinaogunro.portfolio/issues"
+  },
+  "homepage": "https://github.com/eniayoorishina-cloud/orishinaogunro.portfolio#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
